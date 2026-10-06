@@ -1,0 +1,33 @@
+# ==================== 构建产物 ====================
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ==================== 本地配置（务必不要提交）====================
+# local.properties 里有本机 SDK 路径和 release 签名口令
+local.properties
+# 签名私钥：泄露等于别人能签个恶意包冒充你发布
+keystore/
+*.jks
+*.keystore
+*.p12
+
+# ==================== 脚本生成物 ====================
+# 地图瓦片不入库：
+#   1) 体积（z7~z10 北京全域约 100 张）
+#   2) 瓦片来自高德，属第三方服务，打包分发前请自行确认其服务条款
+# 需要的话跑 tools/fetch_tiles.py 自己拉一份
+app/src/main/assets/tiles/
+verify/build/
+out/
+tools/icon_preview*.png
+
+# ==================== IDE / 系统 ====================
+.idea/
+*.iml
+.DS_Store
+captures/

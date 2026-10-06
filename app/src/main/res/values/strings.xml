@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">大肥鱼历险记</string>
+    <string name="tab_spots">钓点</string>
+    <string name="tab_tool">鱼种工具</string>
+    <string name="tab_map">地图</string>
+    <string name="tab_about">说明</string>
+    <string name="loading">正在载入钓点数据…</string>
+    <string name="permission_rationale">开启定位后可以按距离排序、筛选 5/15/30 公里内的钓点。位置只在本机使用，不上传。</string>
+    <string name="grant_location">开启定位</string>
+</resources>

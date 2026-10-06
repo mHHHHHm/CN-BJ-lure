@@ -1,0 +1,49 @@
+MIT License
+
+Copyright (c) 2025 MMH
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+关于数据和素材（重要，请一并阅读）
+--------------------------------------------------------------------------------
+
+MIT 只覆盖**代码**。这个项目里的数据和图片有各自的来源，情况不一样：
+
+1. 法规与水域数据
+   来自北京市农业农村局、北京市水务局的公开发布（京政农发〔2019〕63 号、
+   京农发〔2008〕180 号等）。政府公开信息，可自由引用，
+   但**引用时请保留出处**，别当成自己的原创数据。
+
+2. 钓点信息
+   汇总自公开的钓友分享、地方媒体盘点（北京旅游网等）和 OpenStreetMap 地名数据。
+   原始出处已在每条记录的 `source` 字段里标注。
+   这类信息时效性差，**仅供参考，出行前请以现场标识和管理部门口径为准**。
+
+3. 地图瓦片
+   运行时从高德地图公开瓦片服务获取。**这不属于本项目**，
+   打包分发前请自行确认并遵守其服务条款。
+
+4. 表情包图片
+   App 图标与启动画面用的是社区流传的「蓝色大肥鱼」表情包。
+   **版权不属于本项目作者**，仅作个人使用。若要公开发布，
+   请先确认授权，或换掉这几张图。
+
+5. 应用不构成任何法律意见
+   是否可以在某处垂钓，最终以现场标识和主管部门答复为准。

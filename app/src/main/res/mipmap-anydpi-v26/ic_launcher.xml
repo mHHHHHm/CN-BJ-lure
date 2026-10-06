@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标（API 26+）。
+  前景必须指向 @mipmap/ic_launcher_foreground —— 之前这里写的是
+  @drawable/ic_launcher_foreground，那是个手绘鱼的矢量图，
+  结果 make_icons 生成的 PNG 全都没被用上，桌面上一直是老图标。
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>

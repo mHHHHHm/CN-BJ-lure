@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      冷启动时窗口底色直接用淡蓝，这样从点图标到 Compose 画出第一帧之间
+      不会闪一下白屏，和后面的启动画面是无缝接上的。
+    -->
+    <style name="Theme.BjLure" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_blue</item>
+    </style>
+</resources>

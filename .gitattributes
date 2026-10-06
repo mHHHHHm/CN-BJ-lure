@@ -1,0 +1,22 @@
+# 统一换行符，免得 Windows 上每次 git 都刷一屏 LF/CRLF 警告
+* text=auto eol=lf
+
+# Windows 批处理必须是 CRLF，否则某些情况下双击跑不起来
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制，别碰
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.jar binary
+*.p12 binary
+*.jks binary
+*.keystore binary
+*.apk binary
+
+# 避免语言统计把生成物算进去
+app/src/main/assets/seed/*.json linguist-generated=true
+app/src/main/assets/tiles/* linguist-generated=true
